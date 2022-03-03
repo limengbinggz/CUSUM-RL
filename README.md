@@ -11,7 +11,7 @@ We consider reinforcement learning (RL) methods in offline nonstationary environ
 ## File Overview
 
 - Folder `functions/`: This folder contains all utility Python functions used in numerical experiments including simulation and data analysis
-    - `compute_test_statistics.py` implements the proposed CUMSUM-RL test of nonstationarity.
+    - `compute_test_statistics.py` implements the proposed CUSUM-RL test of nonstationarity.
     - `evaluation.py` implements the evaluation procedure. Specifically, it contains functions for estimating the optimal policy and estimating the value of the policy using fitted-Q evaluation.
     - `simulate_data_1d.py` generates data in 1-dimensional simulation. It contains functions to simulate data in 4 scenarios of different transition and reward functions.
     - `simulate_data_real.py` generated data in the IHS study simulation.
