@@ -1,4 +1,4 @@
-# Reinforcement Learning in Possibly Nonstationary Environments (CUMSUM-RL)
+# Reinforcement Learning in Possibly Nonstationary Environments (CUSUM-RL)
 
 This repository contains the implementation for the paper "Reinforcement Learning in Possibly Nonstationary Environments" in Python (and R for plotting).
 
