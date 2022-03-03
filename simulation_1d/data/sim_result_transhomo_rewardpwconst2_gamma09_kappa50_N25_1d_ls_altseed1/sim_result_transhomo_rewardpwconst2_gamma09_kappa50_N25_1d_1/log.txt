@@ -1,0 +1,111 @@
+
+Name of Python script: 01_sim_1d_run.py
+Running Q learning algorithm on [ 50 , 100 ]
+
+Bandwidth chosen: 1.04091
+Performing basis selection
+u = 10
+0.024457507802739514
+0.08787593440552441
+0.03764014195275621
+0.03853270935131893
+0.05021023329447647
+Number of basis chosen: 0
+u = 16
+0.024496536092785633
+0.08798262064907421
+0.03757698613293963
+0.03847704942308742
+0.04822888821594077
+Number of basis chosen: 0
+u = 22
+0.02440293215825068
+0.08805739448970736
+0.037644069165101525
+0.03934835058505009
+0.04615702164540468
+Number of basis chosen: 0
+u = 28
+0.02436329602766869
+0.08802550734268852
+0.037369676585378764
+0.03859807927282398
+0.04569364357740158
+Number of basis chosen: 0
+u = 35
+0.02402757120647426
+0.0880153200988725
+0.03770006917454689
+0.038384690258345934
+0.045444165792665504
+Number of basis chosen: 0
+Calculating ST at time points [10, 11, 12, 13, 15] 
+
+Calculating ST at time points [16, 17, 18, 20, 21] 
+
+Calculating ST at time points [22, 23, 25, 26, 27] 
+
+Calculating ST at time points [28, 30, 31, 32, 33] 
+
+Calculating ST at time points [35, 36, 37, 38, 40] 
+
+u = 16 ST_u_int_emp = 0.16747090226912623
+u = 10 ST_u_int_emp = 0.15419906972724082
+u = 35 ST_u_int_emp = 0.46637133528997016
+u = 28 ST_u_int_emp = 0.6891744702751911
+u = 22 ST_u_int_emp = 1.1517650719400514
+u = 11 ST_u_int_emp = 0.2658225337139905
+u = 17 ST_u_int_emp = 0.25403797442636666
+u = 36 ST_u_int_emp = 0.5646202391815943
+u = 30 ST_u_int_emp = 0.48462578006889084
+u = 23 ST_u_int_emp = 1.1355808522728081
+u = 18 ST_u_int_emp = 0.29583485833979634
+u = 37 ST_u_int_emp = 0.5488639616353815
+u = 12 ST_u_int_emp = 0.3918253892377135
+u = 31 ST_u_int_emp = 0.4885759725683951
+u = 13 ST_u_int_emp = 0.3592406055482858
+u = 38 ST_u_int_emp = 0.528308947749982
+u = 20 ST_u_int_emp = 0.6654574843344
+u = 25 ST_u_int_emp = 1.2779106031524345
+u = 32 ST_u_int_emp = 0.5506984514130542
+u = 15 ST_u_int_emp = 0.287070233517402
+u = 40 ST_u_int_emp = 0.30633861317800876
+
+Done with calculating ST at time points [10, 11, 12, 13, 15] 
+
+
+Done with calculating ST at time points [35, 36, 37, 38, 40] 
+
+u = 26 ST_u_int_emp = 0.9747673873639705
+u = 21 ST_u_int_emp = 1.0552379662387472
+
+Done with calculating ST at time points [16, 17, 18, 20, 21] 
+
+u = 33 ST_u_int_emp = 0.4917157965899697
+
+Done with calculating ST at time points [28, 30, 31, 32, 33] 
+
+u = 27 ST_u_int_emp = 0.7076032177323687
+
+Done with calculating ST at time points [22, 23, 25, 26, 27] 
+
+Done Multi-threading!
+Finished. Time:  0:01:57.498094
+ST = 1.523693506969757 
+
+critical_value = 1.4298887791558705 
+
+Unnormalized: We reject H0: True 
+
+ST_normalized = 11.526993299270886 
+
+critical_value_normalized = 11.00726566207883 
+
+Normalized: We reject H0: True 
+
+ST_int_emp = 1.2779106031524345 
+
+critical_value_int_emp = 1.2226222881545812 
+
+Integral type wrt empirical distribution: We reject H0: True 
+

@@ -1,0 +1,4 @@
+
+Name of Python script: 01_sim_1d_run.py
+Running Q learning algorithm on [ 75 , 100 ]
+

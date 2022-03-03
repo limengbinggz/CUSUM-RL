@@ -1,0 +1,10 @@
+\begin{tabular}{ll}
+\toprule
+$\gamma=$0.9 & $\gamma=$0.95 \\
+\midrule
+-0.06 (0.04) &  -0.03 (0.03) \\
+22.92 (1.04) &  35.92 (2.42) \\
+ 5.75 (0.86) &   9.62 (1.49) \\
+\bottomrule
+\end{tabular}
+

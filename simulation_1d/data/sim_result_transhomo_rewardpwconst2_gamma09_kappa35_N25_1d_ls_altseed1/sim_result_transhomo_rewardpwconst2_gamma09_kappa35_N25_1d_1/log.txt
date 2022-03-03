@@ -1,0 +1,95 @@
+
+Name of Python script: 01_sim_1d_run.py
+Running Q learning algorithm on [ 65 , 100 ]
+
+Bandwidth chosen: 1.05293
+Performing basis selection
+u = 10
+0.02482100368873844
+0.08663894257102463
+0.03733585034152857
+0.039490172126923684
+0.05134288787267942
+Number of basis chosen: 0
+u = 15
+0.024567866913992202
+0.08656524560161441
+0.037136343294227006
+0.037737573512992
+0.049200874282073245
+Number of basis chosen: 0
+u = 20
+0.024322352618062617
+0.08686406293411496
+0.03748667229017336
+0.03767502143668881
+0.04752407727372719
+Number of basis chosen: 0
+u = 25
+0.02468916600911928
+0.08646270230688284
+0.03727967436361731
+0.036989420877973654
+0.04777656472768038
+Number of basis chosen: 0
+Calculating ST at time points [14, 15, 16] 
+
+Calculating ST at time points [10, 11, 12, 13] 
+
+Calculating ST at time points [20, 21, 22] 
+
+Calculating ST at time points [17, 18, 19] 
+
+Calculating ST at time points [23, 24, 25] 
+
+u = 17 ST_u_int_emp = 0.47470304360349047
+u = 20 ST_u_int_emp = 0.3758760465080428
+u = 14 ST_u_int_emp = 0.5593319300204815
+u = 23 ST_u_int_emp = 0.45845808541513045
+u = 10 ST_u_int_emp = 1.5631129594737436
+u = 18 ST_u_int_emp = 0.4082735151601831
+u = 21 ST_u_int_emp = 0.4920550537580163
+u = 15 ST_u_int_emp = 0.41364126261714895
+u = 24 ST_u_int_emp = 0.384320572370258
+u = 11 ST_u_int_emp = 1.089560118193386
+u = 19 ST_u_int_emp = 0.24032942622748366
+
+Done with calculating ST at time points [17, 18, 19] 
+
+u = 22 ST_u_int_emp = 0.481314734074844
+
+Done with calculating ST at time points [20, 21, 22] 
+
+u = 16 ST_u_int_emp = 0.40645869462433143
+
+Done with calculating ST at time points [14, 15, 16] 
+
+u = 25 ST_u_int_emp = 0.22523831620557244
+
+Done with calculating ST at time points [23, 24, 25] 
+
+u = 12 ST_u_int_emp = 0.6975446701372092
+u = 13 ST_u_int_emp = 0.6690099009745736
+
+Done with calculating ST at time points [10, 11, 12, 13] 
+
+Done Multi-threading!
+Finished. Time:  0:01:04.678857
+ST = 1.8299303467192582 
+
+critical_value = 1.543170619202143 
+
+Unnormalized: We reject H0: True 
+
+ST_normalized = 8.633438395411542 
+
+critical_value_normalized = 8.917631709841725 
+
+Normalized: We reject H0: False 
+
+ST_int_emp = 1.5631129594737436 
+
+critical_value_int_emp = 1.3014528089404127 
+
+Integral type wrt empirical distribution: We reject H0: True 
+

@@ -1,0 +1,73 @@
+
+Name of Python script: 01_sim_1d_run.py
+Running Q learning algorithm on [ 75 , 100 ]
+
+Bandwidth chosen: 1.06860
+Performing basis selection
+u = 10
+0.019455312786494372
+0.04483740090247022
+0.025489829647472206
+0.025987543774884724
+0.02018805931097653
+Number of basis chosen: 0
+u = 15
+0.019941616421853738
+0.045370190508012984
+0.026173813205874807
+0.027227081072536918
+0.020292468751883303
+Number of basis chosen: 0
+Calculating ST at time points [10, 11] 
+
+Calculating ST at time points [12] 
+
+Calculating ST at time points [13] 
+
+Calculating ST at time points [14] 
+
+Calculating ST at time points [15] 
+
+u = 15 ST_u_int_emp = 0.35383359165725076
+
+Done with calculating ST at time points [15] 
+
+u = 12 ST_u_int_emp = 0.20632786118090532
+u = 13 ST_u_int_emp = 0.21056761249498054
+u = 14 ST_u_int_emp = 0.2373883682612732
+
+Done with calculating ST at time points [12] 
+
+
+Done with calculating ST at time points [13] 
+
+
+Done with calculating ST at time points [14] 
+
+u = 10 ST_u_int_emp = 0.45628805357630625
+u = 11 ST_u_int_emp = 0.25932197469869334
+
+Done with calculating ST at time points [10, 11] 
+
+Done Multi-threading!
+Finished. Time:  0:00:37.859892
+ST = 0.6209974846417802 
+
+critical_value = 1.023419900865192 
+
+Unnormalized: We reject H0: False 
+
+ST_normalized = 4.099385246584768 
+
+critical_value_normalized = 6.993327559562988 
+
+Normalized: We reject H0: False 
+
+ST_int_emp = 0.45628805357630625 
+
+critical_value_int_emp = 0.8889697339877627 
+
+Integral type wrt empirical distribution: We reject H0: False 
+
+Plot density of states.
+
