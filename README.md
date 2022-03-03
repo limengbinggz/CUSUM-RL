@@ -18,10 +18,13 @@ We consider reinforcement learning (RL) methods in offline nonstationary environ
 
 - Folder `simulation_1d/`: This folder contains the platform that realizes the 1-dimensional simulation in the paper. Numbers prefixing the names of the .py files indicate the order to realize the simulation scenarios. Files starting with a p in their names contain codes to generate plots in the paper. 
     - `01_sim_1d_run.py` simulates 1-dimensional data and test for nonstationarity on a specified time interval. Usage:
-    $ python 01_sim_1d_run.py {seed} {kappa} {num_thread} {gamma} {trans_setting} {reward_setting} {N} {RBFSampler_random_seed}
+    ```console
+    python 01_sim_1d_run.py {seed} {kappa} {num_thread} {gamma} {trans_setting} {reward_setting} {N} {RBFSampler_random_seed}
+    ```
     See the annotation in the script for the meanings of arguments. Example:
-    $ python 01_sim_1d_run.py 2 30 5 0.9 homo smooth 25 1
-
+    ```console
+    python 01_sim_1d_run.py 2 30 5 0.9 homo smooth 25 1
+    ```
     - `02_combine_p_values.py` aggregates p-value results from multiple random seeds in RBFSampler, with a specified quantile.
     - `03_sim_1d_changept_detection_isoreg.py` estimates change points using isotonic regression.
     - `04_sim_1d_changept_optvalue_run.py` estimates the optimal policies and values using different methods.
@@ -29,20 +32,30 @@ We consider reinforcement learning (RL) methods in offline nonstationary environ
     - `p02_plot_changept_dist.py` creates Figure 4 in paper of distribution of the estimated change points.
     - `p03_plot_changept_value.py` creates Figure 5 in paper of optimal values of different estimated policies.
     - To run the 1-dimensional simulation in sequence, 
-    $ bash run_sim_1d.sh
+    ```sh
+    bash run_sim_1d.sh
+    ```
     - To run the 1-dimensional testing on a cluster and submit the simulation jobs using `slurm` by sample size, kappa, gamma, and data settings,
-    $ python submission_scripts/01_sim_submit.py
+    ```console
+    python submission_scripts/01_sim_submit.py
+    ```
     Next, run `02_combine_p_values.py` and `03_sim_1d_changept_detection_isoreg.py`.
     Finally, split jobs again for evaluation by submitting
-    $ python submission_scripts/04_sim_submit.py
+    ```console
+    python submission_scripts/04_sim_submit.py
+    ```
     - Folder `output` contains raw results and corresponding figures of the simulation in the paper.
 
 - Folder `simulation_ihs/`: This folder contains the platform that realizes the IHS simulation in the paper. Numbers prefixing the names of the .py files indicate the order to realize the simulation scenarios. Files starting with a p in their names contain codes to generate plots in the paper. 
     - `01_sim_ihs_run.py` simulates IHS data and test for nonstationarity on a specified time interval. Usage:
-    $ python 01_sim_ihs_run.py {seed} {kappa} {gamma} {N} {RBFSampler_random_seed}
+    ```console
+    python 01_sim_ihs_run.py {seed} {kappa} {gamma} {N} {RBFSampler_random_seed}
+    ```
     See the annotation in the script for the meanings of arguments. Example:
-    $ python 01_sim_ihs_run.py 2 25 0.9 100 1
-
+    
+    ```console
+    python 01_sim_ihs_run.py 2 25 0.9 100 1
+    ```
     - `02_combine_p_values.py` aggregates p-value results from multiple random seeds in RBFSampler, with a specified quantile.
     - `03_sim_ihs_changept_detection_isoreg.py` estimates change points using isotonic regression.
     - `04_sim_ihs_changept_optvalue_run.py` estimates the optimal policies and values using different methods.
@@ -50,11 +63,16 @@ We consider reinforcement learning (RL) methods in offline nonstationary environ
     - `p02_plot_changept_dist.py` creates Figure 6(b) in paper of distribution of the estimated change points.
     - `p03_plot_changept_value.py` creates Table 2 in paper of optimal values of different estimated policies.
     - To run the IHS simulation in sequence, 
-    $ bash run_sim_ihs.sh
+    ```sh
+    bash run_sim_ihs.sh
+    ```
+
     - To run the IHS testing on a cluster and submit the simulation jobs using `slurm` by sample size, kappa, gamma, and data settings,
     $ python submission_scripts/01_sim_submit.py
     Next, run `02_combine_p_values.py` and `03_sim_ihs_changept_detection_isoreg.py`.
     Finally, split jobs again for evaluation by submitting
-    $ python submission_scripts/04_sim_submit.py
+    ```console
+    python submission_scripts/04_sim_submit.py
+    ```
     - Folder `output` contains raw results and corresponding figures of the simulation in the paper.
 
