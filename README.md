@@ -9,7 +9,7 @@ We consider reinforcement learning (RL) methods in offline nonstationary environ
 
 <img align="center" src="data_pvalue.png" alt="drawing" width="1000">
 
-**Figure**: P-value over different values of $\kappa$ (the number of time points from the last time point). ```math\gamma = 0.9```` and 0.95, from top plots to bottom plots. The specialties corresponds to emergency, pediatrics and family practice, from left plots to right plots.
+**Figure**: P-value over different values of https://render.githubusercontent.com/render/math?math=kappa (the number of time points from the last time point). The discounted factor equal 0.9 and 0.95, from top plots to bottom plots. The specialties corresponds to emergency, pediatrics and family practice, from left plots to right plots.
 
 ## File Overview
 
