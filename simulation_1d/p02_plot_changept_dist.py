@@ -5,8 +5,16 @@ import platform, sys, os, pickle, subprocess, re
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-os.chdir("/Users/mengbing/Documents/research/RL_nonstationary/cumsumrl/simulation_1d")
-sys.path.append("/Users/mengbing/Documents/research/RL_nonstationary/cumsumrl/")
+if plat == 'macOS-12.4-x86_64-i386-64bit' or plat == 'macOS-10.16-x86_64-i386-64bit': ##local
+    os.chdir("/Users/mengbing/Documents/research/change_point_clustering/HeterRL/simulation_real")
+    sys.path.append("/Users/mengbing/Documents/research/change_point_clustering/HeterRL")
+elif plat == 'Linux-3.10.0-1160.42.2.el7.x86_64-x86_64-with-centos-7.6.1810-Core': # biostat cluster
+    os.chdir("/home/mengbing/research/HeterRL/simulation_real")
+    sys.path.append("/home/mengbing/research/HeterRL")
+elif plat == 'Linux-3.10.0-1160.6.1.el7.x86_64-x86_64-with-glibc2.17' or plat == 'Linux-3.10.0-1160.45.1.el7.x86_64-x86_64-with-glibc2.17':  # greatlakes
+    os.chdir("/home/mengbing/research/HeterRL/simulation_real")
+    sys.path.append("/home/mengbing/research/HeterRL")
+
 
 setting_list = [['homo', 'pwconst2'],
                 ['homo', 'smooth'],
