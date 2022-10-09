@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime
 # import test_stat.simulate_data_1d as sim
-from functions.simulate_data_1d_edited import *
+from functions.simulate_data_1d_flexible import *
 from sklearn.tree import DecisionTreeRegressor
 import functions.compute_test_statistics as stat_pvalue
 from functions.evaluation_separateA import *
