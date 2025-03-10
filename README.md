@@ -1,6 +1,6 @@
 # Testing Stationarity and Change Point Detection in Reinforcement Learning (CUSUM-RL)
 
-This repository contains the implementation for the paper "Testing Stationarity and Change Point Detection in Reinforcement Learning" in Python (and R for plotting).
+This repository contains the implementation for the paper "Testing Stationarity and Change Point Detection in Reinforcement Learning" (AoS, 2025) in Python (and R for plotting).
 
 
 ## Summary of the paper
